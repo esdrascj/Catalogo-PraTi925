@@ -19,6 +19,8 @@ body {
 
   }
 
+  
+
  /*seção do header e menu*/ 
 .navigation{
   display: flex;
@@ -105,6 +107,8 @@ main section{
 /*seção com os icones e informativos*/  
 .frete-pagamento{
   background-color: #fff;
+  width: 100%;
+  margin: 0;
 }
 
 .box-icone{
@@ -144,6 +148,74 @@ main section{
 }
 
 /*final da seção com icones e informativos*/
+
+/*seção texto seja uma brilhosa*/
+.box-brilhosa{
+  width: 80%;
+  margin: 0 auto; /* Centralizar horizontalmente */
+  text-align: center; /* Centralizar o conteúdo do contêiner */
+  height: 1vh; /* altura da janela de visualização */
+}
+
+.box-brilhosa-title{
+  
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+/*final da seção texto seja  uma brilhosa*/
+/*inicio da seção com as imagens e bordas*/
+.img-pecas{
+  background-color: #fff;
+  width: 100%;
+  margin: 0%;
+}
+
+
+.box-img-pecas-border{
+  position: relative;
+  width: 400px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6A4547;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.box-img-pecas{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .4);
+  overflow: hidden;
+  border-radius: 20px;
+
+}
+
+/*final seção duas imagens de produtos*/
+.box-brilhosa-background2{
+  background-color: #6A4547; 
+}
+
+.box-brilhosa-background2-div{
+  display: block;
+  position: absolute;
+  left: 0;
+  height: auto;
+  
+}
+.box-brilhosa-background2 img{
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
 
 /*seção de exibição dos produtos*/
 .produto {
