@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -218,6 +220,14 @@ main section{
 }
 
 /*seção de exibição dos produtos*/
+.texto-principal{
+  text-align: center;
+}
+
+.texto-principal-title{
+  margin-right: 20px;
+}
+
 .produto {
     display: inline-block;
     margin-right: 20px;
@@ -268,3 +278,23 @@ footer p {
 margin: 0;
 font-size: 14px;
 }
+
+
+
+.social-icons {
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  width: 7%;
+  height: 10%;
+}
+
+.social-icons li {
+  
+  margin: 0 10px;
+}
+
+.social-icons a:hover{
+  border-bottom: 1px solid #fff;
+}
+
