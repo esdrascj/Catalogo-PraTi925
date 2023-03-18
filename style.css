@@ -151,21 +151,6 @@ main section{
 
 /*final da seção com icones e informativos*/
 
-/*seção texto seja uma brilhosa*/
-.box-brilhosa{
-  width: 80%;
-  margin: 0 auto; /* Centralizar horizontalmente */
-  text-align: center; /* Centralizar o conteúdo do contêiner */
-  height: 1vh; /* altura da janela de visualização */
-}
-
-.box-brilhosa-title{
-  
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-}
-/*final da seção texto seja  uma brilhosa*/
 /*inicio da seção com as imagens e bordas*/
 .img-pecas{
   background-color: #fff;
@@ -239,6 +224,7 @@ main section{
     height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 .produto h3 {
