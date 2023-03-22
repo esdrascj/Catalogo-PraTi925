@@ -225,6 +225,11 @@ main section{
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 20px;
+    transition: transform .5s ease;
+}
+
+.produto:hover img {
+  transform: scale(1.1);
 }
 
 .produto h3 {
@@ -249,6 +254,19 @@ main section{
 .produto button:hover {
   background-color:#555;
 }
+
+
+.vermais h3{
+  font-size: 25px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.vermais a:hover{
+  color: #fff;
+  border-bottom: 1px solid #003400;
+}
+
 /*final da seção de exibição dos produtos*/
 
 /*seção do rodape*/
